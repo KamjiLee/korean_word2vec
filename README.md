@@ -1,0 +1,1 @@
+# korean_word2vec
