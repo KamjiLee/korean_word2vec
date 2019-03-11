@@ -23,12 +23,11 @@ wget https://dumps.wikimedia.org/kowiki/20190301/kowiki-20190301-pages-articles.
 git clone "https://github.com/attardi/wikiextractor.git"
 python WikiExtractor.py kowiki-20190301-pages-articles.xml.bz2 
 ```
-
-End with an example of getting some data out of the system or using it for a little demo
+https://wikidocs.net/22660 참고해서 하나의 txt 파일로 구성
 
 ## Training
 ```
-python train_w2v.py
+python train_w2v.py --dataset "txt 파일의 "
 ```
 ### t-sne 그림
 ```
