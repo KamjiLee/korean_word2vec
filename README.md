@@ -32,6 +32,9 @@ python WikiExtractor.py kowiki-20190301-pages-articles.xml.bz2
 https://wikidocs.net/22660 참고해서 하나의 txt 파일로 구성
 
 ## Training
+
+텍스트를 Okt를 이용해 토큰화해서 (토큰화가 2시간 넘게 걸림) Gensim 라이브러리 이용해서 embedding 후 학습.
+
 ```
 python train_w2v.py --dataset "txt 파일위치"
 ```
