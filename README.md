@@ -73,7 +73,7 @@ print(embedding.wv.most_similar(positive=['왕', '여자'], negative=['남자'],
 
 ### t-sne 그림
 ```
-python t_sne.py --model "path of the model" --word "키워드" --list ["임의","선택", "단어","들"]
+python t_sne.py --model "path of the model" --word 키워드 --list 임의 선택 단어 들 --embedding 저장한_임베딩_
 ```
 matplotlib에서 한글 font 문제가 있는데, 우분투에서만 해결한 상태.
 
