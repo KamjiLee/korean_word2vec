@@ -38,6 +38,8 @@ https://wikidocs.net/22660 참고해서 하나의 txt 파일로 구성
 ```
 python train_w2v.py --dataset "txt 파일위치"
 ```
+3개의 모형 저장 파일이 생기는데 삭제하면 안 됨.
+
 ### 임베딩 결과
 ```
 print(embedding.wv.most_similar(positive=["공포"]))
