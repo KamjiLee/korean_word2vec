@@ -26,23 +26,14 @@ python WikiExtractor.py kowiki-20190301-pages-articles.xml.bz2
 
 End with an example of getting some data out of the system or using it for a little demo
 
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
+## Training
 ```
-Give an example
+python train_w2v.py
+```
+### t-sne 그림
+```
+python t_sne.py --model "path of the model" --word "키워드" --list ["임의","선택", "단어","들"]
 ```
 
-### And coding style tests
 
-Explain what these tests test and why
-
-```
-Give an example
-```
  
