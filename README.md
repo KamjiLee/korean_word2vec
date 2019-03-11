@@ -34,4 +34,4 @@ python train_w2v.py --dataset "txt 파일위치"
 python t_sne.py --model "path of the model" --word "키워드" --list ["임의","선택", "단어","들"]
 ```
 ![역사 t-sne](readme_images/역사_t_sne.png)
-![스마트폰 t-sne](readme_images/역사_t_sne.png)
+![스마트폰 t-sne](readme_images/스마트폰_t_sne.png)
