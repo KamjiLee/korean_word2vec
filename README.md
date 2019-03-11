@@ -5,8 +5,14 @@ word2vec in korean
 ### Prerequisites
 
 ```
-python
+python3
 gensim
+konlpy
+codecs
+matplotlib
+seaborn
+sklearn
+pandas
 ```
 ### Installing
 
