@@ -27,7 +27,7 @@ https://wikidocs.net/22660 참고해서 하나의 txt 파일로 구성
 
 ## Training
 ```
-python train_w2v.py --dataset "txt 파일의  "
+python train_w2v.py --dataset "txt 파일위치"
 ```
 ### t-sne 그림
 ```
